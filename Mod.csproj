@@ -7,8 +7,12 @@
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
-
   <ItemGroup>
+	<Publicize Include="GameScripts" />
+	  <PackageReference Include="Krafs.Publicizer" Version="2.2.1">
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		  <PrivateAssets>all</PrivateAssets>
+	  </PackageReference>
     <Reference Include="0Harmony">
       <HintPath>$(stacklands)/Stacklands_Data/Managed/0Harmony.dll</HintPath>
       <Private>False</Private>
@@ -69,5 +73,11 @@
       <HintPath>$(stacklands)/Stacklands_Data/Managed/UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Boosterpacks\" />
+    <Folder Include="Icons\" />
+    <Folder Include="Sounds\" />
   </ItemGroup>
 </Project>

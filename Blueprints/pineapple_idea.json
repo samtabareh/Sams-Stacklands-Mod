@@ -2,6 +2,7 @@
   "id": "exotic_blueprint_pineapple",
   "nameTerm": "exotic_pineapple_name",
   "group": "Cooking",
+  "script": "ExoticNS.BlueprintGrowth",
   "subprints": [
     {
       "RequiredCards": "apple, banana",
