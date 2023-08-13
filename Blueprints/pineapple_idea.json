@@ -1,0 +1,13 @@
+{
+  "id": "exotic_blueprint_pineapple",
+  "nameTerm": "exotic_pineapple_name",
+  "group": "Cooking",
+  "subprints": [
+    {
+      "RequiredCards": "apple, banana",
+      "ResultCard": "exotic_pineapple",
+      "Time": 5,
+      "StatusTerm": "exotic_idea_pineapple_status"
+    }
+  ]
+}

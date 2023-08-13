@@ -1,0 +1,10 @@
+C:\Users\RTS\OneDrive\Desktop\Repos\Sams-Stacklands-Mod\bin\Debug\netstandard2.1\Exotic.deps.json
+C:\Users\RTS\OneDrive\Desktop\Repos\Sams-Stacklands-Mod\bin\Debug\netstandard2.1\Exotic.dll
+C:\Users\RTS\OneDrive\Desktop\Repos\Sams-Stacklands-Mod\bin\Debug\netstandard2.1\Exotic.pdb
+C:\Users\RTS\OneDrive\Desktop\Repos\Sams-Stacklands-Mod\obj\Debug\netstandard2.1\Mod.csproj.AssemblyReference.cache
+C:\Users\RTS\OneDrive\Desktop\Repos\Sams-Stacklands-Mod\obj\Debug\netstandard2.1\Mod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RTS\OneDrive\Desktop\Repos\Sams-Stacklands-Mod\obj\Debug\netstandard2.1\Mod.AssemblyInfoInputs.cache
+C:\Users\RTS\OneDrive\Desktop\Repos\Sams-Stacklands-Mod\obj\Debug\netstandard2.1\Mod.AssemblyInfo.cs
+C:\Users\RTS\OneDrive\Desktop\Repos\Sams-Stacklands-Mod\obj\Debug\netstandard2.1\Mod.csproj.CoreCompileInputs.cache
+C:\Users\RTS\OneDrive\Desktop\Repos\Sams-Stacklands-Mod\obj\Debug\netstandard2.1\Exotic.dll
+C:\Users\RTS\OneDrive\Desktop\Repos\Sams-Stacklands-Mod\obj\Debug\netstandard2.1\Exotic.pdb
