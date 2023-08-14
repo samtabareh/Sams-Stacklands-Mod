@@ -1,0 +1,17 @@
+{
+  "id": "exotic_mango",
+  "nameTerm": "exotic_mango_name",
+  "descriptionTerm": "exotic_mango_description",
+  "icon": "mango.png",
+  "value": 4,
+  "type": "Food",
+  "script": "Food",
+  "_CanSpoil": false,
+  "_FoodValue": 4,
+  "_HasUniquePalette": true,
+  "_MyPalette": {
+    "Color": "#FFC300",
+    "Color2": "#ff8518",
+    "Icon": "#000000"
+  }
+}

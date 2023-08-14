@@ -1,0 +1,33 @@
+{
+  "id": "exotic_alive_truffle",
+  "nameTerm": "exotic_alive_truffle_name",
+  "descriptionTerm": "exotic_alive_truffle_description",
+  "type": "Mobs",
+  "icon": "alive_truffle.png",
+  "value": -1,
+  "script": "Animal",
+  "_CreateCard": "exotic_truffle",
+  "_CreateTime": 20,
+  "_BaseCombatStats": {
+    "MaxHealth": 4,
+    "AttackDamage": 1,
+    "AttackSpeed": 1,
+    "Defence": 1,
+    "HitChance": 0.8
+  },
+  "_AlwaysDrop": true,
+  "_Drops": {
+    "CardBagType": "Chances",
+    "CardsInPack": 1,
+    "Chances": [
+      {
+        "Id": "exotic_truffle",
+        "Chance": 2
+      },
+      {
+        "Id": "gold",
+        "Chance": 1
+      }
+    ]
+  }
+}

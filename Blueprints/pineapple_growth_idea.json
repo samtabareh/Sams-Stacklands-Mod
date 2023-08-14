@@ -1,0 +1,15 @@
+{
+  "id": "exotic_blueprint_pineapple_grow",
+  "nameTerm": "exotic_pineapple_name",
+  "group": "Cooking",
+  "script": "ExoticNS.BlueprintGrowth",
+  "hidefromideastab": true,
+  "subprints": [
+    {
+      "RequiredCards": "",
+      "ResultCard": "",
+      "Time": 1,
+      "StatusTerm": "exotic_idea_pineapple_grow"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
-  "id": "exotic_pineapple",
-  "nameTerm": "exotic_pineapple_name",
-  "descriptionTerm": "exotic_pineapple_description",
-  "icon": "pineapple.png",
+  "id": "exotic_truffle",
+  "nameTerm": "exotic_truffle_name",
+  "descriptionTerm": "exotic_truffle_description",
+  "icon": "truffle.png",
   "value": 5,
   "type": "Food",
   "script": "Food",
   "_CanSpoil": false,
-  "_FoodValue": 4,
+  "_FoodValue": 2,
   "_HasUniquePalette": true,
   "_MyPalette": {
     "Color": "#FEEA63",

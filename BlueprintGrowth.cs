@@ -41,6 +41,7 @@ namespace ExoticNS
 			growables.Clear();
 			//Exotic©
 			growables.Add(new Growable("exotic_pineapple", "exotic_pineapple_grow", "exotic_pineapple", 2, 120f));
+			growables.Add(new Growable("exotic_mango", "exotic_mango_grow", "exotic_mango", 2, 120f));
 			PopulateSubprints(loader);
 			base.Init(loader);
 		}
