@@ -7,9 +7,9 @@
   "value": -1,
   "script": "Animal",
   "_CreateCard": "exotic_truffle",
-  "_CreateTime": 20,
+  "_CreateTime": 45,
   "_BaseCombatStats": {
-    "MaxHealth": 4,
+    "MaxHealth": 3,
     "AttackDamage": 1,
     "AttackSpeed": 1,
     "Defence": 1,
@@ -22,10 +22,6 @@
     "Chances": [
       {
         "Id": "exotic_truffle",
-        "Chance": 2
-      },
-      {
-        "Id": "gold",
         "Chance": 1
       }
     ]

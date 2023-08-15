@@ -4,10 +4,10 @@
   "group": "Cooking",
   "subprints": [
     {
-      "RequiredCards": "exotic_truffle, magic_dust",
+      "RequiredCards": "mushroom, magic_dust",
       "ResultCard": "exotic_alive_truffle",
-      "Time": 1,
-      "StatusTerm": "exotic_idea_alive_truffle_status2"
+      "Time": 10,
+      "StatusTerm": "exotic_idea_alive_truffle_status"
     }
   ]
 }

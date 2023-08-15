@@ -3,7 +3,7 @@
   "nameTerm": "exotic_truffle_name",
   "descriptionTerm": "exotic_truffle_description",
   "icon": "truffle.png",
-  "value": 5,
+  "value": 4,
   "type": "Food",
   "script": "Food",
   "_CanSpoil": false,
