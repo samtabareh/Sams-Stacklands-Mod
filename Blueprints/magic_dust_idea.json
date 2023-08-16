@@ -1,0 +1,15 @@
+{
+  "id": "exotic_blueprint_magic_dust",
+  "nameTerm": "magic_dust",
+  "group": "Cooking",
+  "hidefromcardopedia": true,
+  "subprints": [
+    {
+      "RequiredCards": "bone, stone",
+      "CardsToRemove": "bone",
+      "ResultCard": "magic_dust",
+      "Time": 5,
+      "StatusTerm": "exotic_idea_magic_dust_status"
+    }
+  ]
+}

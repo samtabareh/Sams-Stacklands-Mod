@@ -4,6 +4,7 @@
   "group": "Cooking",
   "script": "ExoticNS.BlueprintGrowth",
   "hidefromideastab": true,
+  "hidefromcardopedia": true,
   "subprints": [
     {
       "RequiredCards": "",

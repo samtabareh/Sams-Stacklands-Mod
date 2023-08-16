@@ -17,6 +17,8 @@ namespace ExoticNS
             Harvestable forest = (Harvestable)WorldManager.instance.GetCardPrefab("forest");
             CardBag bag = forest.MyCardBag;
             bag.Chances.Add(new CardChance("exotic_alive_truffle", 1));
+            CardData bone = WorldManager.instance.GetCardPrefab("bone");
+            bone.descriptionOverride = "Some say it has magical properties within!";
         }
     }
 }
