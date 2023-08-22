@@ -7,13 +7,14 @@
   "value": -1,
   "script": "Animal",
   "_CreateCard": "exotic_truffle",
-  "_CreateTime": 45,
+  "_CreateTime": 60,
   "_BaseCombatStats": {
     "MaxHealth": 3,
     "AttackDamage": 1,
     "AttackSpeed": 1,
     "Defence": 1,
-    "HitChance": 0.8
+    "HitChance": 0.8,
+    "SpecialHits": []
   },
   "_AlwaysDrop": true,
   "_Drops": {

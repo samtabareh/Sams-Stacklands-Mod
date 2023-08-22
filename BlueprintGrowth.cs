@@ -42,7 +42,7 @@ namespace ExoticNS
 			//Exotic Co.
 			growables.Add(new Growable("exotic_mango", "exotic_idea_mango_grow", "exotic_mango", 2, 120f));
 			growables.Add(new Growable("exotic_pineapple", "exotic_idea_pineapple_grow", "exotic_pineapple", 2, 120f));
-			growables.Add(new Growable("exotic_truffle", "exotic_idea_alive_truffle_status2", "exotic_alive_truffle", 2, 120f));
+			growables.Add(new Growable("exotic_truffle", "exotic_idea_alive_truffle_status", "exotic_alive_truffle", 2, 120f));
 			PopulateSubprints(loader);
 			base.Init(loader);
 		}
