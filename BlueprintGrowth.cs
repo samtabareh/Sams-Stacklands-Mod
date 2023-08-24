@@ -6,7 +6,7 @@ namespace ExoticNS
 {
 	public class BlueprintGrowth : Blueprint
 	{
-		private class Growable
+		public class Growable
 		{
 			public string ToGrow;
 
