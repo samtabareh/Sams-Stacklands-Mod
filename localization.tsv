@@ -2,10 +2,10 @@
 exotic_pineapple_name		Pineapple©
 exotic_pineapple_description		An Exotic Co. fruit, Pineapple© aka Experiment 001.
 exotic_idea_pineapple_status		Making a Pineapple© from Exotic Co. ...
-exotic_idea_pineapple_grow		Growing a Pineapple© from Exotic Co.
+exotic_pineapple_grow		Growing a Pineapple© from Exotic Co.
 exotic_mango_name		Mango©
 exotic_mango_description		An Exotic Co. fruit, Mango© aka Experiment 002.
-exotic_idea_mango_grow		Growing a Mango© from Exotic Co.
+exotic_mango_grow		Growing a Mango© from Exotic Co.
 exotic_luxury_fruit_salad_name		Luxury Fruit Salad
 exotic_luxury_fruit_salad_description		A salad made of Fruits only available to the wealthy.
 exotic_idea_luxury_fruit_salad_status		Making an Expensive salad
@@ -16,4 +16,8 @@ exotic_truffle_name		Truffle©
 exotic_truffle_description		An Exotic Co. food, Truffle© aka Experiment 003.
 exotic_idea_magic_dust_status		Making magic...
 exotic_coconut_name		Coconut©
-exotic_coconut_description		Test123
+exotic_coconut_description		An Exotic Co. fruit, Coconut© aka Experiment 004.
+exotic_coconut_tree_name		Coconut© Tree
+exotic_coconut_tree_description		"There is something up there, let me poke it with a stick!" - Famous' Last Words, Died By A Falling Coconut©
+exotic_coconut_tree_status		Poking a Coconut© Tree...
+exotic_coconut_tree_grow		Growing a nice tall Coconut© Tree...
