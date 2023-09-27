@@ -5,7 +5,7 @@
   "icon": "coconut_tree.png",
   "value": 1,
   "script": "Harvestable",
-  "_StatusTerm": "exotic_coconut_tree_status",
+  "_statusterm": "exotic_coconut_tree_status",
   "_MyCardBag": {
     "CardBagType": "Chances",
     "Chances": [
