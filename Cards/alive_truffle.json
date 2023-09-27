@@ -7,7 +7,7 @@
   "value": -1,
   "script": "Animal",
   "_CreateCard": "exotic_truffle",
-  "_CreateTime": 60,
+  "_CreateTime": 70,
   "_BaseCombatStats": {
     "MaxHealth": 3,
     "AttackDamage": 1,
