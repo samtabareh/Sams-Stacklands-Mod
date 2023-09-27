@@ -13,7 +13,6 @@ namespace ExoticNS
             ___growables.Add(new BlueprintGrowth.Growable("exotic_coconut", "exotic_coconut_tree_grow", "exotic_coconut_tree", 1, 120f));
             ___growables.Add(new BlueprintGrowth.Growable("exotic_pineapple", "exotic_pineapple_grow", "exotic_pineapple", 2, 120f));
             ___growables.Add(new BlueprintGrowth.Growable("exotic_truffle", "exotic_idea_alive_truffle_status", "exotic_alive_truffle", 2, 120f));
-            Debug.LogError("POPULATESUBPRINTS PATCHED.");
         }
 
         private void Awake()
