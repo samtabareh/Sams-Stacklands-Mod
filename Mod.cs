@@ -29,12 +29,12 @@ namespace ExoticNS
             WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.Island_BasicHarvestable, "exotic_coconut_tree", 1);
             WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedFood, "exotic_coconut_tree", 1);
             
-            Harvestable forest = (Harvestable)WorldManager.instance.GetCardPrefab("forest");
-            CardBag bag = forest.MyCardBag;
+            Harvestable harvestable = (Harvestable)WorldManager.instance.GetCardPrefab("forest");
+            CardBag bag = harvestable.MyCardBag;
             bag.Chances.Add(new CardChance("exotic_alive_truffle", 1));
             
-            CardData bone = WorldManager.instance.GetCardPrefab("bone");
-            bone.descriptionOverride = "Some say it has magical properties within!";
+            CardData card = WorldManager.instance.GetCardPrefab("bone");
+            card.descriptionOverride = "Some say it has magical properties within!";
         }
     }
 }

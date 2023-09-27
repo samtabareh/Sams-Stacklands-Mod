@@ -7,6 +7,10 @@
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\coconut_tree.psd" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>$(stacklands)/Stacklands_Data/Managed/0Harmony.dll</HintPath>
