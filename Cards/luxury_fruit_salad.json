@@ -3,9 +3,9 @@
   "nameTerm": "exotic_luxury_fruit_salad_name",
   "descriptionTerm": "exotic_luxury_fruit_salad_description",
   "icon": "fruit_salad",
-  "value": 5,
+  "value": 9,
   "type": "Food",
   "script": "Food",
   "_CanSpoil": false,
-  "_FoodValue": 6
+  "_FoodValue": 8
 }
