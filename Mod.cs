@@ -33,7 +33,7 @@ namespace ExoticNS
             CardData bone = WorldManager.instance.GetCardPrefab("bone");
             bone.descriptionOverride = "Some say it has magical properties within!";
 
-            Harmony.PatchAll();
+            Harmony.PatchAll(typeof(Exotic));
         }
     }
 }
