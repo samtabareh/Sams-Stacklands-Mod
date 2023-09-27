@@ -15,7 +15,11 @@ namespace ExoticNS
             ___growables.Add(new BlueprintGrowth.Growable("exotic_truffle", "exotic_idea_alive_truffle_status", "exotic_alive_truffle", 2, 120f));
             Debug.LogError("POPULATESUBPRINTS PATCHED.");
         }
-        
+
+        private void Awake()
+        {
+            Harmony.PatchAll(typeof(Exotic));
+        }
         public override void Ready()
         {
             WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.CookingIdea, "exotic_blueprint_luxury_fruit_salad", 1);
@@ -32,8 +36,6 @@ namespace ExoticNS
             
             CardData bone = WorldManager.instance.GetCardPrefab("bone");
             bone.descriptionOverride = "Some say it has magical properties within!";
-
-            Harmony.PatchAll(typeof(Exotic));
         }
     }
 }
