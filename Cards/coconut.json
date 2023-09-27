@@ -1,0 +1,17 @@
+{
+  "id": "exotic_coconut",
+  "nameTerm": "exotic_coconut_name",
+  "descriptionTerm": "exotic_coconut_description",
+  "icon": "coconut.png",
+  "value": 2,
+  "type": "Food",
+  "script": "Food",
+  "_CanSpoil": false,
+  "_FoodValue": 2,
+  "_HasUniquePalette": true,
+  "_MyPalette": {
+    "Color": "#864319",
+    "Color2": "#855940",
+    "Icon": "#FEFFE3"
+  }
+}

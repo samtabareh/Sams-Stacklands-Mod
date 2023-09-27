@@ -1,9 +1,0 @@
-{
-  "id": "exotic_blueprint_truffle_grow",
-  "nameTerm": "exotic_alive_truffle_name",
-  "group": "Cooking",
-  "script": "ExoticNS.BlueprintGrowth",
-  "hidefromideastab": true,
-  "hidefromcardopedia": true,
-  "subprints": []
-}
