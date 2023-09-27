@@ -4,7 +4,7 @@
   "group": "Cooking",
   "subprints": [
     {
-      "RequiredCards": "exotic_pineapple, exotic_mango",
+      "RequiredCards": "exotic_pineapple, exotic_mango, exotic_coconut",
       "ResultCard": "exotic_luxury_fruit_salad",
       "Time": 10,
       "StatusTerm": "exotic_idea_luxury_fruit_salad_status"
