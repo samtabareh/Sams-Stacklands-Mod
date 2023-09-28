@@ -1,0 +1,14 @@
+{
+  "id": "exotic_blueprint_shrimp_sushi",
+  "nameTerm": "exotic_shrimp_sushi_name",
+  "group": "Cooking",
+  "subprints": [
+    {
+      "RequiredCards": "exotic_raw_shrimp, seaweed",
+      "CardsToRemove": "exotic_raw_shrimp, seaweed",
+      "ResultCard": "exotic_shrimp_sushi",
+      "Time": 10,
+      "StatusTerm": "exotic_idea_shrimp_sushi_status"
+    }
+  ]
+}

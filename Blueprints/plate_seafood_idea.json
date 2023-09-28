@@ -1,0 +1,13 @@
+{
+  "id": "exotic_blueprint_plate_seafood",
+  "nameTerm": "exotic_plate_seafood_name",
+  "group": "Cooking",
+  "subprints": [
+    {
+      "RequiredCards": "exotic_shrimp_sushi, exotic_truffle_caviar",
+      "ResultCard": "exotic_plate_seafood",
+      "Time": 10,
+      "StatusTerm": "exotic_idea_plate_seafood_status"
+    }
+  ]
+}

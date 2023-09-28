@@ -1,0 +1,11 @@
+{
+  "id": "exotic_plate_seafood",
+  "nameTerm": "exotic_plate_seafood_name",
+  "descriptionTerm": "exotic_plate_seafood_desc",
+  "icon": "plate_seafood.png",
+  "value": 13,
+  "type": "Food",
+  "script": "Food",
+  "_CanSpoil": false,
+  "_FoodValue": 9
+}

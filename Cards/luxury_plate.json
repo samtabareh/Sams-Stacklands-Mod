@@ -1,0 +1,11 @@
+{
+  "id": "exotic_luxury_plate",
+  "nameTerm": "exotic_luxury_plate_name",
+  "descriptionTerm": "exotic_luxury_plate_desc",
+  "icon": "luxury_plate.png",
+  "value": 44,
+  "type": "Food",
+  "script": "Food",
+  "_CanSpoil": false,
+  "_FoodValue": 34
+}

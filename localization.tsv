@@ -14,6 +14,10 @@ exotic_alive_truffle_desc		The result of Experiment 003a aka Alive Truffle. *IMP
 exotic_idea_alive_truffle_status		Recreating Expt. 003a...
 exotic_truffle_name		Truffle©
 exotic_truffle_desc		An Exotic Co. food, Truffle© aka Experiment 003.
+exotic_truffle_caviar_name		Truffle© With Caviar©
+exotic_truffle_caviar_desc		I swear it's not the main course!
+exotic_idea_truffle_caviar_status		Sprinkling some Truffle...
+exotic_idea_magic_dust		Magic Dust
 exotic_idea_magic_dust_status		Making magic...
 exotic_coconut_name		Coconut©
 exotic_coconut_desc		An Exotic Co. fruit, Coconut© aka Experiment 004.
@@ -24,4 +28,14 @@ exotic_coconut_tree_grow		Growing a nice tall Coconut© Tree...
 exotic_shrimp_name		Shrimp©
 exotic_shrimp_desc		An Exotic Co. Fish, Shrimp© aka Experiment 101.
 exotic_raw_shrimp_name		Raw Shrimp©
-exotic_raw_shrimp_desc		You cant cook it... but i bet it would go nice with some C@v!@r© or Truffle©!
+exotic_caviar_name		Caviar©
+exotic_caviar_desc		An Exotic Co. food, Caviar© aka Experiment 102.
+exotic_shrimp_sushi_name		Shrimp© Sushi
+exotic_shrimp_sushi_desc		"Make sure you blast freeze it from −35C or below for 15 hours before consumption." - Some website i found
+exotic_idea_shrimp_sushi_status		Wrapping Seaweed around Shrimp...
+exotic_plate_seafood_name		Plate of Seafood
+exotic_plate_seafood_desc		I don't wanna see the check.
+exotic_idea_plate_seafood_status		Blast Freezing...
+exotic_luxury_plate_name		LUXURY PLATE
+exotic_luxury_plate_desc		The Ultimate Food.
+exotic_idea_luxury_plate_status		*Forging Metal Sounds*

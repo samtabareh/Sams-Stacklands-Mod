@@ -1,0 +1,13 @@
+{
+  "id": "exotic_blueprint_truffle_caviar",
+  "nameTerm": "exotic_truffle_caviar_name",
+  "group": "Cooking",
+  "subprints": [
+    {
+      "RequiredCards": "exotic_truffle, exotic_caviar",
+      "ResultCard": "exotic_truffle_caviar",
+      "Time": 10,
+      "StatusTerm": "exotic_idea_truffle_caviar_status"
+    }
+  ]
+}

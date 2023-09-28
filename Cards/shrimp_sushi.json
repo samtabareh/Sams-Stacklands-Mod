@@ -1,0 +1,11 @@
+{
+  "id": "exotic_shrimp_sushi",
+  "nameTerm": "exotic_shrimp_sushi_name",
+  "descriptionTerm": "exotic_shrimp_sushi_desc",
+  "icon": "tamago_sushi",
+  "value": 2,
+  "type": "Food",
+  "script": "Food",
+  "_CanSpoil": false,
+  "_FoodValue": 4
+}

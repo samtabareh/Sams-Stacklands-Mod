@@ -1,0 +1,12 @@
+{
+  "id": "exotic_truffle_caviar",
+  "nameTerm": "exotic_truffle_caviar_name",
+  "descriptionTerm": "exotic_truffle_caviar_desc",
+  "icon": "truffle_caviar.png",
+  "value": 10,
+  "type": "Food",
+  "script": "Food",
+  "_CanSpoil": true,
+  "_SpoilTime": 240,
+  "_FoodValue": 4
+}

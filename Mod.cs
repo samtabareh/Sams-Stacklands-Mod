@@ -25,8 +25,15 @@ namespace ExoticNS
                 WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.CookingIdea, "exotic_blueprint_luxury_fruit_salad", 1);
                 WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.CookingIdea, "exotic_blueprint_pineapple", 1);
                 WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.CookingIdea, "exotic_blueprint_alive_truffle", 1);
+                WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.CookingIdea, "exotic_blueprint_truffle_caviar", 1);
+                WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedFood, "exotic_blueprint_luxury_plate", 1);
+                WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.Island_AdvancedFood, "exotic_blueprint_luxury_plate", 1);
+                WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.Island_CookingIdea, "exotic_blueprint_truffle_caviar", 1);
+                WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.Island_CookingIdea, "exotic_blueprint_shrimp_sushi", 1);
+                WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.Island_CookingIdea, "exotic_blueprint_plate_seafood", 1);
                 WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedFood, "exotic_pineapple", 1);
                 WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedFood, "exotic_mango", 1);
+                WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.Island_AdvancedFood, "exotic_alive_truffle", 1);
                 WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.Island_BasicHarvestable, "exotic_coconut_tree", 1);
                 WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedFood, "exotic_coconut_tree", 1);
             } // Bags
@@ -47,19 +54,34 @@ namespace ExoticNS
 
                 fishbag.CardsInPack = 1; // How many cards in 1 BaitBag
                 fishbag.Chances = new List<CardChance>(); fishbag.Chances.Add(chance);// Add our CardChance (chance) to our BaitBag (fishbag)
-                fishbag.BaitId = "raw_fish"; // What Food will always drop {chance.Id} from fishing
+                fishbag.BaitId = "seaweed"; // What Food will always drop {chance.Id} from fishing
 
                 //Step 4: Add our BaitBag (fishbag) to the FishTrap.BaitBags
 
                 trap.BaitBags.Add(fishbag); // Add our BaitBag (fishbag) to the FishTrap.BaitBags
-            } // Fish
+            } // Fish Trap
+            {
+                Animal Eel = (Animal)WorldManager.instance.GetCardPrefab("eel");
+                CardChance ec = new CardChance(); // eel chance
+                List<CardChance> EC = Eel.Drops.Chances; // Eel Chances
+                ec.Id = "exotic_caviar";
+                ec.PercentageChance = .75f;
+                EC.Add(ec);
+            } // Eel
+            {   Animal Cod = (Animal)WorldManager.instance.GetCardPrefab("cod");
+            CardChance cc = new CardChance(); // cod chance
+            List<CardChance> CC = Cod.Drops.Chances; // Cod Chances
+            cc.Id = "exotic_caviar";
+            cc.PercentageChance = .5f;
+            CC.Add(cc);
+            } // Cod
 
-            Harvestable harvestable = (Harvestable)WorldManager.instance.GetCardPrefab("forest");
-            CardBag bag = harvestable.MyCardBag;
-            bag.Chances.Add(new CardChance("exotic_alive_truffle", 1));
-            
-            CardData card = WorldManager.instance.GetCardPrefab("bone");
-            card.descriptionOverride = "Some say it has magical properties within!";
+            Harvestable forest = (Harvestable)WorldManager.instance.GetCardPrefab("forest");
+            CardBag forestbag = forest.MyCardBag;
+            forestbag.Chances.Add(new CardChance("exotic_alive_truffle", 1));
+
+            CardData bone = WorldManager.instance.GetCardPrefab("bone");
+            bone.descriptionOverride = "Some say it has magical properties within!";
         }
     }
 }

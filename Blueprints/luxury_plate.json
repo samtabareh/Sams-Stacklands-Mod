@@ -1,0 +1,13 @@
+{
+  "id": "exotic_blueprint_luxury_plate",
+  "nameTerm": "exotic_luxury_plate_name",
+  "group": "Cooking",
+  "subprints": [
+    {
+      "RequiredCards": "exotic_plate_seafood, exotic_luxury_fruit_salad",
+      "ResultCard": "exotic_luxury_plate",
+      "Time": 15,
+      "StatusTerm": "exotic_idea_luxury_plate_status"
+    }
+  ]
+}
