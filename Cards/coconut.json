@@ -1,7 +1,7 @@
 {
   "id": "exotic_coconut",
   "nameTerm": "exotic_coconut_name",
-  "descriptionTerm": "exotic_coconut_description",
+  "descriptionTerm": "exotic_coconut_desc",
   "icon": "coconut.png",
   "value": 2,
   "type": "Food",

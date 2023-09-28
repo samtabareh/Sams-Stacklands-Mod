@@ -1,11 +1,11 @@
 {
   "id": "exotic_coconut_tree",
   "nameTerm": "exotic_coconut_tree_name",
-  "descriptionTerm": "exotic_coconut_tree_description",
+  "descriptionTerm": "exotic_coconut_tree_desc",
   "icon": "coconut_tree.png",
   "value": 1,
   "script": "Harvestable",
-  "_statusterm": "exotic_coconut_tree_status",
+  "_StatusTerm": "exotic_coconut_tree_status",
   "_MyCardBag": {
     "CardBagType": "Chances",
     "Chances": [

@@ -1,0 +1,9 @@
+{
+  "id": "exotic_raw_shrimp",
+  "nameTerm": "exotic_raw_shrimp_name",
+  "descriptionTerm": "exotic_raw_shrimp_desc",
+  "icon": "cod",
+  "value": 2,
+  "script": "Food",
+  "_FoodValue": 0
+}

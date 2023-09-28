@@ -29,6 +29,38 @@ namespace ExoticNS
             WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.Island_BasicHarvestable, "exotic_coconut_tree", 1);
             WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.AdvancedFood, "exotic_coconut_tree", 1);
             
+            //Step 1: Make the Vars
+            
+            FishTrap trap = (FishTrap)WorldManager.instance.GetCardPrefab("fish_trap"); //Get the Fish Trap
+            BaitBag fishbag = new BaitBag(); // Get the first BaitBag that FishTrap (trap) has in FishTrap.BaitBags
+            CardChance chance = new CardChance(); // Get the first and ONLY CardChance from the BaitBag (fishbag)
+            
+            //Step 2: Edit the CardChance
+            
+            chance.Id = "exotic_shrimp"; // The ID of the fish you want to drop from fishing
+            chance.MaxCountToGive = 1; // Max amount of fish to drop from fishing
+            chance.PercentageChance = 1; // chance of which card to choose from (we only have 1 card tho so just set it to 1)
+            
+            //Step 3: Edit our BaitBag (fishtrap) and add our CardChance (chance) to our BaitBag (fishbag)
+            
+            fishbag.CardsInPack = 1; // How many cards in 1 BaitBag
+            fishbag.Chances.Add(chance); // Add our CardChance (chance) to our BaitBag (fishbag)
+            fishbag.BaitId = "raw_fish"; // What Food will always drop {chance.Id} from fishing
+            
+            //Step 4: Add our BaitBag (fishbag) to the FishTrap.BaitBags
+            
+            trap.BaitBags.Add(fishbag); // Add our BaitBag (fishbag) to the FishTrap.BaitBags
+
+            /*for (int i = 0; i < trap.BaitBags.Count; i++)
+            {
+                Debug.LogWarning($"BaitBag: {i+1}");
+                for (int j = 0; j < trap.BaitBags[i].Chances.Count; j++)
+                {
+                Debug.LogWarning($"Chance: {j+1}");
+                Debug.LogError("Id: "+ trap.BaitBags[i].Chances[j].Id);
+                }
+            } */Debug.LogError("Fuck");
+
             Harvestable harvestable = (Harvestable)WorldManager.instance.GetCardPrefab("forest");
             CardBag bag = harvestable.MyCardBag;
             bag.Chances.Add(new CardChance("exotic_alive_truffle", 1));

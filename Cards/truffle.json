@@ -1,7 +1,7 @@
 {
   "id": "exotic_truffle",
   "nameTerm": "exotic_truffle_name",
-  "descriptionTerm": "exotic_truffle_description",
+  "descriptionTerm": "exotic_truffle_desc",
   "icon": "truffle.png",
   "value": 4,
   "type": "Food",

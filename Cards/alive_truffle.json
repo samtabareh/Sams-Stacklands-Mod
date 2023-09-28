@@ -1,7 +1,7 @@
 {
   "id": "exotic_alive_truffle",
   "nameTerm": "exotic_alive_truffle_name",
-  "descriptionTerm": "exotic_alive_truffle_description",
+  "descriptionTerm": "exotic_alive_truffle_desc",
   "type": "Mobs",
   "icon": "alive_truffle.png",
   "value": -1,

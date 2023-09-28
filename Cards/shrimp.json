@@ -1,0 +1,28 @@
+{
+  "id": "exotic_shrimp",
+  "nameTerm": "exotic_shrimp_name",
+  "descriptionTerm": "exotic_shrimp_desc",
+  "type": "Fish",
+  "icon": "cod",
+  "value": -1,
+  "script": "Animal",
+  "_BaseCombatStats": {
+    "MaxHealth": 3,
+    "AttackDamage": 2,
+    "AttackSpeed": 1.5,
+    "Defence": 1,
+    "HitChance": 0.6,
+    "SpecialHits": []
+  },
+  "_AlwaysDrop": true,
+  "_Drops": {
+    "CardBagType": "Chances",
+    "CardsInPack": 2,
+    "Chances": [
+      {
+        "Id": "exotic_raw_shrimp",
+        "Chance": 1
+      }
+    ]
+  }
+}

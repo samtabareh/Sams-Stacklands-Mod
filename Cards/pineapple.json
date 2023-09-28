@@ -1,7 +1,7 @@
 {
   "id": "exotic_pineapple",
   "nameTerm": "exotic_pineapple_name",
-  "descriptionTerm": "exotic_pineapple_description",
+  "descriptionTerm": "exotic_pineapple_desc",
   "icon": "banana",
   "value": 3,
   "type": "Food",

@@ -1,7 +1,7 @@
 {
   "id": "exotic_luxury_fruit_salad",
   "nameTerm": "exotic_luxury_fruit_salad_name",
-  "descriptionTerm": "exotic_luxury_fruit_salad_description",
+  "descriptionTerm": "exotic_luxury_fruit_salad_desc",
   "icon": "fruit_salad",
   "value": 9,
   "type": "Food",

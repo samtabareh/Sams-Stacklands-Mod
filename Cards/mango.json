@@ -1,7 +1,7 @@
 {
   "id": "exotic_mango",
   "nameTerm": "exotic_mango_name",
-  "descriptionTerm": "exotic_mango_description",
+  "descriptionTerm": "exotic_mango_desc",
   "icon": "apple",
   "value": 3,
   "type": "Food",
