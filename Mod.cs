@@ -34,8 +34,8 @@ namespace ExoticNS
                 //Step 1: Make the Vars
 
                 FishTrap trap = (FishTrap)WorldManager.instance.GetCardPrefab("fish_trap"); //Get the Fish Trap
-                BaitBag fishbag = new BaitBag(); // Get the first BaitBag that FishTrap (trap) has in FishTrap.BaitBags
-                CardChance chance = new CardChance(); // Get the first and ONLY CardChance from the BaitBag (fishbag)
+                BaitBag fishbag = new BaitBag(); // Make A BaitBag.
+                CardChance chance = new CardChance(); // Make A CardChance
 
                 //Step 2: Edit the CardChance
 
