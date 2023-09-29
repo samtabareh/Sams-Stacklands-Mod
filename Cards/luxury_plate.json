@@ -5,7 +5,8 @@
   "icon": "luxury_plate.png",
   "value": 44,
   "type": "Food",
-  "script": "Food",
+  "script": "ExoticNS.Luxury",
+  "_ResultAction": "add:SETest",
   "_CanSpoil": false,
   "_FoodValue": 34
 }
