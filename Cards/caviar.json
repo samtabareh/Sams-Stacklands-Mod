@@ -5,8 +5,7 @@
   "icon": "caviar.png",
   "value": 5,
   "type": "Food",
-  "script": "Food",
+  "script": "ExoticNS.Classes.Caviar",
   "_CanSpoil": true,
-  "_SpoilTime": 180,
   "_FoodValue": 2
 }

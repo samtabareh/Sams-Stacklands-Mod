@@ -5,23 +5,18 @@ namespace ExoticNS
 {
     public class Exotic : Mod
     {
-        public static string Path = Path;
+        public static Exotic exotic = new Exotic();
+        public static WorldManager world = new WorldManager();
+
         [HarmonyPatch(typeof(BlueprintGrowth), "PopulateSubprints")]
         [HarmonyPrefix]
         public static void BlueprintGrowth__PopulateSubprints_Prefix(GameDataLoader loader, List<BlueprintGrowth.Growable> ___growables)
         {
-            Debug.LogError(Path);
+            Debug.LogWarning("Exotic Co. Patch Applied.");
             ___growables.Add(new BlueprintGrowth.Growable("exotic_mango", "exotic_mango_grow", "exotic_mango", 2, 120f));
             ___growables.Add(new BlueprintGrowth.Growable("exotic_coconut", "exotic_coconut_tree_grow", "exotic_coconut_tree", 1, 120f));
             ___growables.Add(new BlueprintGrowth.Growable("exotic_pineapple", "exotic_pineapple_grow", "exotic_pineapple", 2, 120f));
             ___growables.Add(new BlueprintGrowth.Growable("exotic_truffle", "exotic_idea_alive_truffle_status", "exotic_alive_truffle", 2, 120f));
-        }
-
-        [HarmonyPatch(typeof(StatusEffect), "InitStatusEffectTypes")]
-        [HarmonyPostfix]
-        public static void InitCustomStatusEffect(List<Type> ___statusEffectTypes)
-        {
-            ___statusEffectTypes.Add(typeof(SETest));
         }
         private void Awake()
         {
@@ -91,28 +86,6 @@ namespace ExoticNS
 
             CardData bone = WorldManager.instance.GetCardPrefab("bone");
             bone.descriptionOverride = "Some say it has magical properties within!";
-        }
-
-        public static Sprite sprite => ResourceHelper.LoadSpriteFromPath(Path + "/Icons/anxious_status_icon.png");
-    }
-    public class SETest : StatusEffect
-    {
-        protected override string TermId => "test";
-
-        public override Sprite Sprite => Exotic.sprite;
-
-        public override void Update()
-        {
-            FillAmount = 1f - StatusTimer / WorldManager.instance.MonthTime;
-            if (StatusTimer >= WorldManager.instance.MonthTime)
-                base.ParentCard.RemoveStatusEffect(this);
-            base.Update();
-        }
-    }
-    public class Luxury : Food {
-        public override void ConsumedBy(Combatable vill)
-        {
-            vill.ParseAction(ResultAction);
         }
     }
 }
