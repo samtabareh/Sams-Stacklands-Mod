@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <AssemblyName>Exotic</AssemblyName>
@@ -39,6 +39,10 @@
     <Reference Include="ShapesRuntime">
       <HintPath>$(stacklands)/Stacklands_Data/Managed/ShapesRuntime.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="SimplyBetterFoods">
+      <HintPath>..\..\..\..\AppData\LocalLow\sokpop\Stacklands\Mods\simply_better_foods\SimplyBetterFoods.dll</HintPath>
+		<Private>False</Private>
     </Reference>
     <Reference Include="SokLoc">
       <HintPath>$(stacklands)/Stacklands_Data/Managed/SokLoc.dll</HintPath>

@@ -1,4 +1,5 @@
 ﻿using HarmonyLib;
+using SimplyBetterFoodsNS;
 using UnityEngine;
 
 namespace ExoticNS
@@ -6,13 +7,14 @@ namespace ExoticNS
     public class Exotic : Mod
     {
         public static Exotic exotic = new Exotic();
+        public static SimplyBetterFoods simply = new SimplyBetterFoods();
         public static WorldManager world = new WorldManager();
 
         [HarmonyPatch(typeof(BlueprintGrowth), "PopulateSubprints")]
         [HarmonyPrefix]
         public static void BlueprintGrowth__PopulateSubprints_Prefix(GameDataLoader loader, List<BlueprintGrowth.Growable> ___growables)
         {
-            Debug.LogWarning("Exotic Co. Patch Applied.");
+            Debug.LogWarning($"{exotic.Manifest.Name} Patch Applied.");
             ___growables.Add(new BlueprintGrowth.Growable("exotic_mango", "exotic_mango_grow", "exotic_mango", 2, 120f));
             ___growables.Add(new BlueprintGrowth.Growable("exotic_coconut", "exotic_coconut_tree_grow", "exotic_coconut_tree", 1, 120f));
             ___growables.Add(new BlueprintGrowth.Growable("exotic_pineapple", "exotic_pineapple_grow", "exotic_pineapple", 2, 120f));
@@ -24,6 +26,20 @@ namespace ExoticNS
         }
         public override void Ready()
         {
+            foreach (Mod mod in ModManager.LoadedMods)
+            {
+                for (int i = 0; i < exotic.Manifest.Dependencies.Count; i++)
+                {
+                    if (mod.Manifest.Id == exotic.Manifest.Dependencies[i])
+                        Debug.LogWarning($"Exotic Co. Dependency [Name: {mod.Manifest.Name}, Id: {mod.Manifest.Id}] Is Loaded.");
+                }
+                for (int i = 0; i < exotic.Manifest.OptionalDependencies.Count; i++)
+                {
+                    if (mod.Manifest.Id == exotic.Manifest.OptionalDependencies[i])
+                        Debug.LogWarning($"Exotic Co. Optional Dependency [Name: {mod.Manifest.Name}, Id: {mod.Manifest.Id}] Is Loaded.");
+                }
+            }
+
             {
                 WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.CookingIdea, "exotic_blueprint_luxury_fruit_salad", 1);
                 WorldManager.instance.GameDataLoader.AddCardToSetCardBag(SetCardBagType.CookingIdea, "exotic_blueprint_pineapple", 1);
@@ -86,6 +102,7 @@ namespace ExoticNS
 
             CardData bone = WorldManager.instance.GetCardPrefab("bone");
             bone.descriptionOverride = "Some say it has magical properties within!";
+            SimplyBetterFoodsNS.FoodEffects.CBDebuff
         }
     }
 }
